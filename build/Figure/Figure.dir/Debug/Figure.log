@@ -1,0 +1,3 @@
+﻿EngineCore.lib(Window.obj) : error LNK2001: неразрешенный внешний символ "private: static int Engine::Window::width" (?width@Window@Engine@@0HA).
+EngineCore.lib(Window.obj) : error LNK2001: неразрешенный внешний символ "private: static int Engine::Window::height" (?height@Window@Engine@@0HA).
+D:\res\Figure-Graphics\build\bin\Debug\Figure.exe : fatal error LNK1120: неразрешенных внешних элементов: 2

@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.12)
+
+set(ENGINE_PROJECT_NAME EngineCore)
+
+add_libary(${ENGINE_PROJECT_NAME} STATIC 
+	src/EngineCore/Utils/test.cpp
+	include/EngineCore/Utils/test.hpp

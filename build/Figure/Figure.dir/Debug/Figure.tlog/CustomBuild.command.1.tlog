@@ -1,0 +1,10 @@
+^D:\RES\FIGURE-GRAPHICS\FIGURE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/res/Figure-Graphics -BD:/res/Figure-Graphics/build --check-stamp-file D:/res/Figure-Graphics/build/Figure/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
